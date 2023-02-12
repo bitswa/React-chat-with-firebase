@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "./database";
-import { Login } from "./components/login";
+import { Login } from "./components/Login";
 import { Chat } from "./components/Chat";
 import { Home } from "./components/Home";
 

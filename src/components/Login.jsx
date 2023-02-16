@@ -6,8 +6,13 @@ export const Login = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleSignIn}>Login with Google</button>
+    <div className="min-h-screen text-[#E1E1E6] bg-[#1A1924] grid place-items-center">
+      <button
+        className="border-2 border-[#282843] shadow-lg p-4 rounded-xl"
+        onClick={handleSignIn}
+      >
+        Login with Google
+      </button>
     </div>
   );
 };
